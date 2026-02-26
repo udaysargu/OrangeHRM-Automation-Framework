@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [orangehrm testsuite]">
+  <test thread-count="5" name="Admin Login Test(failed)">
+    <classes>
+      <class name="testrunners.AdminLoginTest">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="1"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- testrunners.AdminLoginTest -->
+    </classes>
+  </test> <!-- Admin Login Test(failed) -->
+</suite> <!-- Failed suite [orangehrm testsuite] -->
